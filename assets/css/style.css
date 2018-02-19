@@ -1,0 +1,19 @@
+
+body { 
+    /* background-color: lightgrey; */
+    background-image: url("../images/vintage-concrete.gif");
+}
+#name {
+/* .navbar-brand { */
+    background: #4aaaa5;
+    color: rgb(255,255,255);
+    padding: 15px;
+    text-align: center;
+}
+
+#footer {
+    border-top: 5px solid #4daaa5;
+    text-align: center;
+    background-color:darkgray;
+    color: white;
+}
