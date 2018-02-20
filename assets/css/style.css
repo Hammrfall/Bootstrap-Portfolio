@@ -7,7 +7,9 @@ body {
     background-color: white;
 
 }
-
+#connect {
+margin-top: 300px;
+}
 
 #name {
 /* .navbar-brand { */
@@ -15,6 +17,24 @@ body {
     color: rgb(255,255,255);
     padding: 15px;
     text-align: center;
+}
+.imageandtext {
+    width: 190px;
+    float: left;
+    margin: 15px;
+    margin: 10px;
+}
+
+.caption {
+    position: relative;
+    width: 190px;
+    top: -120px;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+    color: rgb(212, 250, 0);
+    padding: 5px;
+    Border-top: 3px solid rgb(212,250,0);
+    Border-bottom: 3px solid rgb(212,250,0); 
 }
 
 #footer {
