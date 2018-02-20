@@ -3,6 +3,12 @@ body {
     /* background-color: lightgrey; */
     background-image: url("../images/vintage-concrete.gif");
 }
+#mainbox {
+    background-color: white;
+
+}
+
+
 #name {
 /* .navbar-brand { */
     background: #4aaaa5;
