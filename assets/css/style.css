@@ -37,9 +37,9 @@ margin-top: 300px;
 
 .imageandtext {
     width: 190px;
-    float: left;
-    margin: 15px;
-    margin: 10px;
+    /* float: left;
+    margin: 15px; */
+
 }
 
 .caption {
