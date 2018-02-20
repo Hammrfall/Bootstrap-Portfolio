@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About me</title>
+    <title>Contact me</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type = "text/css" href="assets/css/style.css" />
@@ -43,7 +43,36 @@
                 <hr />
             </div>
 
-            <p>Form will go here</p>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-12 formItem">
+                            <label for="fullname">Name</label>
+                            <input type="text" class="form-control" name="name" id="fullname" placeholder="John Smith" 
+                            required="required">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 formItem">
+                            <label for="email">email</label>
+                            <input type="text" class="form-control" name="email" id="email" placeholder="example@gmail.com"
+                            required="required">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 formItem">
+                            <label for="message">Message</label>
+                            <textarea name="message" class="form-control" id="message" placeholder="your best prose here" required="required"></textarea>
+                        </div>  
+                    </div>
+                    <div class="row">
+                        <div class="col-12 formItem">
+                            <button type="submit" class="btn btn-default form-control">Submit</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </form>
         </div>
         <div class="col-sm-3">
             <div class="panel panel-default">
